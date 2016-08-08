@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
+    <TextView
+    android:id="@+id/date_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="周三"
+    android:layout_margin="5dp"
+    android:textColor="#ffffff"
+    android:textSize="12sp"
+    />
+
+    <ImageView
+        android:id="@+id/day_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/weather_14"
+        android:layout_margin="5dp"
+        />
+
+    <ImageView
+        android:id="@+id/night_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/weather_14"
+        android:layout_margin="5dp"
+        />
+
+    <TextView
+        android:id="@+id/temperature_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="30C"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/weather_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="小雨"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/wind_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="北风"
+        android:layout_margin="5dp"
+        android:textColor="#ffffff"
+        android:textSize="12sp"/>
+
+</LinearLayout>

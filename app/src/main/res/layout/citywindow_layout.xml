@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mywindow">
+    <TextView
+        android:id="@+id/near_city"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="最近查询"
+        android:gravity="center_vertical"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#cccccc"/>
+
+    <TextView
+        android:id="@+id/all_city"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="城市列表"
+        android:gravity="center_vertical"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#cccccc"/>
+
+    <TextView
+        android:id="@+id/now_city"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="当前城市"
+        android:gravity="center_vertical"/>
+
+</LinearLayout>
